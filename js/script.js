@@ -214,11 +214,3 @@ function factCheck() {
     factStatusElements[i].style.display = "inline-block";
   }
 }
-
-function factCheckRelease() {
-  var factStatusElements = document.getElementsByClassName("fact-status");
-
-  for (var i = 0; i < factStatusElements.length; i++) {
-    factStatusElements[i].style.display = "none";
-  }
-}
